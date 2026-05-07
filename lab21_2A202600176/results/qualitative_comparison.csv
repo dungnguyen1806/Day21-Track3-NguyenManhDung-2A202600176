@@ -1,0 +1,74 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Machine learning là một bộ môn khoa học tính toán nhằm học từ dữ liệu, mà không phải là bằng cách viết ra chương trình bằng ngôn ngữ lập trình. Trong machine learning, máy học được đào tạo bằng cách tiếp cận dữ liệu và học cách phân loại hoặc dự đoán kết quả dựa trên các mô hình đã được huấn luyện t","Machine learning là một bộ môn khoa học máy tính giúp máy tự học và cải thiện từ dữ liệu mà không cần phải được chỉ định bằng cách viết chương trình. Trong khi học thuật, nó được định nghĩa là một bộ phận của AI (tính toán nhân tạo) và có thể được hiểu là một cách để máy tự học từ dữ liệu. Khái niệm"
+Viết đoạn code Python tính số Fibonacci thứ n.,"Để tính số Fibonacci thứ n, bạn có thể sử dụng một trong hai phương pháp sau:
+
+1. Phương pháp đệ quy:
+```python
+def fibonacci(n):
+    if n <= 0:
+        return ""Không có số Fibonacci thứ 0 hoặc thứ âm.""
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        return fibo","Có nhiều cách để viết đoạn code Python tính số Fibonacci thứ n. Đây là một trong những cách đơn giản nhất:
+
+```python
+def fibonacci(n):
+    if n < 0:
+        raise ValueError(""n phải là số nguyên dương"")
+    elif n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        a, b = 0, "
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"1. **Hiện thị rõ ràng**: Mục đích của UI/UX là giúp người dùng dễ dàng tiếp cận, sử dụng và hiểu các chức năng của sản phẩm. Điều này có thể được đạt được thông qua việc sử dụng màu sắc, hình ảnh, font chữ và bố cục hợp lý. 2. **Tính dễ sử dụng**: UI/UX phải dễ dàng sử dụng cho tất cả các người dùng","1. Lấy ý kiến khách hàng: Thiết kế UI/UX cần được dựa trên ý kiến ​​của người dùng và khách hàng. 2. Sử dụng màu sắc và bố cục hợp lý: Chọn màu sắc và bố cục phù hợp với chủ đề và đối tượng mục tiêu của bạn, đảm bảo rằng chúng dễ dàng nhận biết và thu hút sự chú ý. 3. Tạo trải nghiệm người dùng liền"
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,LoRA (Low-Rank Adaptation) và QLoRA (Quantized LoRA) là hai cách tiếp cận khác nhau để cải thiện hiệu suất của mạng neural network bằng cách tăng cường tính toán bằng cách sử dụng ít thông tin hơn. LoRA là một phương pháp để thay thế một số trọng lượng của mạng neural network bằng các trọng lượng đư,"LoRA (Low-Rank Adaptation) và QLoRA (Quantized LoRA) là hai phương pháp cải tiến để tối ưu hóa mô hình chuyển đổi và hiệu quả của nó bằng cách sử dụng các hạt nhân nhỏ hơn. LoRA và QLoRA đều là phương pháp nâng cấp cho các mô hình chuyển đổi, có thể được sử dụng để tăng hiệu suất của mô hình khi tri"
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt engineering, RAG (Retrieval Augmented Generation), và fine-tuning là ba phương pháp khác nhau được sử dụng trong NLP (Nghệ thuật Lập trình tự động) để cải thiện chất lượng của hệ thống. - Prompt engineering: là một kỹ thuật được sử dụng để cải thiện hiệu suất của hệ thống bằng cách cung cấp c","Prompt engineering, RAG (Reinforcement Aggregation Generation) và fine-tuning là các phương pháp khác nhau được sử dụng trong NLP (Nghiên cứu máy tính ngôn ngữ) để tạo ra mô hình máy học hiệu quả. - Prompt engineering: Đây là một kỹ thuật để cải thiện hiệu quả của một mô hình bằng cách sử dụng câu l"
+Khi nào nên dùng RAG thay vì fine-tuning?,"RAG (Reinforcement Aggregation) là một phương pháp học máy cho phép một mô hình học máy có thể học được từ các nguồn dữ liệu không có phân loại và không có sự hướng dẫn rõ ràng. Khi sử dụng RAG thay vì fine-tuning, có thể có các trường hợp sau: 1. Mô hình không có sẵn: Nếu bạn không có sẵn một mô hì",RAG (Reinforcement Aggregation Guidance) là một phương pháp được sử dụng để cải thiện hiệu quả của các mô hình máy học bằng cách tập trung vào những phần cụ thể của dữ liệu. Nó được sử dụng khi mô hình đã được tối ưu hóa bằng cách sử dụng dữ liệu lớn nhưng hiệu quả không cao. RAG được thực hiện bằng
+Giải thích cách hoạt động của Flash Attention.,"Flash Attention là một kỹ thuật được sử dụng trong trí tuệ nhân tạo để xác định độ quan tâm của các phần tử trong một tập tin. Kỹ thuật này sử dụng các điểm ảnh đã được ẩn để xác định vị trí nào trong ảnh được quan tâm nhất. Flash Attention hoạt động như sau: 1. Đầu tiên, một tập tin ảnh được đưa và",Flash Attention là một mô hình học máy dựa trên mạng lưới thần kinh nhân tạo (Neural Network) được sử dụng để giải quyết các bài toán tự động hóa tóm tắt văn bản. Nó hoạt động dựa trên việc sử dụng một chuỗi các luồng (flash) để lưu trữ thông tin quan trọng trong bài viết. Mỗi luồng chứa một số câu 
+List 3 câu hỏi phỏng vấn cho ML Engineer junior.,1. Giới thiệu về mình và lý do bạn muốn làm việc trong lĩnh vực Machine Learning? 2. Bạn có thể cho chúng tôi biết về việc học Machine Learning của bạn và những gì bạn đã học được không? 3. Bạn có thể cung cấp một ví dụ về một dự án Machine Learning bạn đã làm và cách bạn đã giải quyết những thách t,1. Chào mừng bạn đã gia nhập nhóm của chúng tôi. Bạn có thể chia sẻ về kinh nghiệm của bạn trong lĩnh vực lập trình và khả năng sử dụng các công cụ và kỹ thuật lập trình không? 2. Bạn có thể chia sẻ về một dự án mà bạn đã làm trong quá khứ và cách bạn đã xử lý các vấn đề khi thực hiện? 3. Bạn có thể
+Cho biết ưu điểm của Transformer so với RNN.,"Transformer là một mô hình NLU (Nhóm học máy) có thể học được các chuỗi văn bản, được tạo ra để đối phó với vấn đề của RNN (Danh sách học máy). Transformer không có bất kỳ kinh nghiệm của chuỗi nào, do đó nó có thể xử lý các chuỗi bất kỳ độ dài nào. Transformer có thể hiểu được văn bản mà không cần ","Transformer là một mô hình máy học được phát triển để thay thế và cải thiện hiệu suất của mô hình Recurrent Neural Network (RNN). Ưu điểm của Transformer so với RNN bao gồm: 1. Transformer không cần lưu trữ thông tin truy hồi như RNN, vì vậy nó có thể xử lý chuỗi không có giới hạn, chẳng hạn như câu"
+Cách evaluate performance của một LLM fine-tuned model?,"Để đánh giá hiệu suất của một mô hình LLM đã được tinh chỉnh, bạn có thể thực hiện các bước sau: 1. Sử dụng các thước đo chung: Có thể sử dụng các thước đo chung như độ chính xác, độ chính xác, độ chính xác, độ chính xác và độ chính xác để đánh giá hiệu suất của mô hình. 2. Tạo dữ liệu thử nghiệm: T","Để đánh giá hiệu suất của một mô hình LLM đã được fine-tuned, có thể thực hiện các bước sau: 1. Đánh giá độ chính xác của mô hình bằng cách sử dụng các bài kiểm tra chuẩn bị sẵn. 2. Thử nghiệm mô hình trên một số bài kiểm tra khác nhau để đảm bảo tính đa dạng và độ chính xác. 3. Quan sát xem mô hình"
+Làm thế nào để giảm thiểu hiện tượng hallucination trong LLM?,Tránh cung cấp quá nhiều dữ liệu không chính xác hoặc thiếu nội dung quan trọng có thể làm cho hệ thống AI tạo ra các kết luận hoặc câu trả lời không chính xác. Bạn có thể hạn chế việc cung cấp các câu hỏi có tính chất gây tranh cãi hoặc có thể gây tranh cãi bằng cách cung cấp các câu hỏi có thể đượ,"Hallucination trong các hệ thống AI được tạo ra từ các mô hình máy học lớn (LLM) là một vấn đề phổ biến. Điều này có thể gây ra những sai lầm đáng tin cậy hoặc sai lệch trong các quyết định và dự đoán được đưa ra. Để giảm thiểu hiện tượng này, có một số chiến lược có thể được áp dụng. Đầu tiên, cần "
+Viết một ví dụ về unit test trong Python cho một hàm cộng hai số.,"Đây là ví dụ về một unit test trong Python cho một hàm cộng hai số. Ở đây, chúng ta sẽ sử dụng thư viện pytest để viết một test đơn giản cho hàm add().
+
+```python
+import pytest
+
+def add(a, b):
+    return a + b
+
+def test_add():
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+    assert add(0, 0)","Đây là một ví dụ về một unit test cho hàm cộng hai số trong Python:
+
+```python
+def add_numbers(a, b):
+    return a + b
+
+def test_add_numbers():
+    assert add_numbers(2, 3) == 5
+    assert add_numbers(10, 15) == 25
+    assert add_numbers(0, 0) == 0
+    assert add_numbers(-5, -10) == -15
+
+test_add_nu"
+Giải thích khái niệm Docker và lợi ích của nó trong triển khai phần mềm.,"Docker là một công cụ cho phép triển khai phần mềm có thể di chuyển được, đồng nhất và mở rộng. Nó cho phép người dùng xây dựng, triển khai và triển khai ứng dụng của mình mà không phụ thuộc vào hệ điều hành. Docker cung cấp khả năng đồng nhất và mở rộng ứng dụng, đồng nghĩa với việc nó cho phép ngư","Docker là một công nghệ triển khai phần mềm dựa trên nền tảng chung (Chủ đề). Nó cho phép bạn chạy phần mềm của mình trong các container, mỗi container là một môi trường riêng biệt và có thể được đồng bộ hóa để chạy cùng một thời điểm. Docker cung cấp khả năng khôi phục nhanh chóng và dễ dàng, đồng "
+So sánh ưu và nhược điểm của PyTorch và TensorFlow.,"PyTorch và TensorFlow là hai công cụ lập trình mã hóa phổ biến nhất hiện nay. PyTorch và TensorFlow có nhiều điểm tương đồng và khác biệt, và mỗi công cụ có những ưu và nhược điểm riêng. Ưu điểm của PyTorch là khả năng mở rộng nhanh chóng, khả năng tích hợp tốt với môi trường Linux, khả năng tạo mô ","PyTorch và TensorFlow đều là các hệ sinh thái mã nguồn mở về máy tính thần kinh được phát triển với mục đích tạo ra các mô hình máy học tiên tiến, nhưng chúng có một số điểm khác nhau đáng chú ý. Ưu điểm của PyTorch bao gồm: 1. Python: PyTorch được phát triển bằng Python, một ngôn ngữ được sử dụng r"
+Làm thế nào để tối ưu hóa truy vấn SQL cho một bảng có hàng triệu bản ghi?,Các phương pháp tối ưu hóa truy vấn SQL cho một bảng có hàng triệu bản ghi bao gồm: 1. Sử dụng các chỉ mục hợp lý: Chỉ mục là một dữ liệu bổ sung được sử dụng để tăng tốc độ truy vấn. Sử dụng các chỉ mục hợp lý có thể giảm thời gian truy vấn và tăng hiệu suất của truy vấn. 2. Truy vấn hợp lý: Sử dụn,"Trong SQL, có nhiều phương pháp tối ưu hóa truy vấn cho một bảng có hàng triệu bản ghi. Một số phương pháp phổ biến bao gồm: 1. Sử dụng các từ truy vấn hiệu quả: Sử dụng các từ truy vấn như WHERE, JOIN, GROUP BY, HAVING, ORDER BY và LIMIT để tối ưu hóa truy vấn của bạn. 2. Tối ưu hóa truy vấn bằng c"
+Giải thích cơ chế tự chú ý (Self-Attention) trong kiến trúc Transformer.,"Cơ chế tự chú ý (Self-Attention) là một trong những thành phần quan trọng nhất trong kiến trúc Transformer. Nó được sử dụng để cải thiện khả năng xử lý và tương tác giữa các phần tử trong chuỗi đầu vào của mạng. Cụ thể, nó giúp mạng có thể chú ý đến các phần tử trong chuỗi của mình và sử dụng thông ","Cơ chế tự chú ý là một trong những thành phần chính trong kiến trúc Transformer, được sử dụng để xác định quan trọng của các phần tử trong chuỗi đầu vào và kết nối chúng với nhau. Trong Transformer, nó được sử dụng để xác định quan trọng của các vị trí trong chuỗi đầu vào đối với các vị trí khác. Cơ"
+Mô tả quy trình CI/CD cơ bản cho một dự án web.,"Trước hết, một quy trình CI/CD cơ bản cho một dự án web bao gồm các bước sau: 1. Kiểm tra trạng thái: Đầu tiên, kiểm tra trạng thái của dự án web bằng cách sử dụng các công cụ kiểm tra tự động như Jenkins, Travis CI hoặc CircleCI. Công cụ này sẽ chạy các test và kiểm tra tự động để đảm bảo tính hợp ",Trình tự CI/CD cơ bản cho một dự án web bao gồm các bước sau: 1. Tiến hành xây dựng: Bước này bao gồm xây dựng và kiểm thử dự án web bằng môi trường thử nghiệm. 2. Kiểm tra: Bước này bao gồm kiểm tra các dự án web bằng môi trường thử nghiệm. 3. Kiểm thử: Bước này bao gồm kiểm thử các dự án web bằng 
+Viết một đoạn script bash để sao lưu một thư mục vào tệp .tar.gz.,"Mục đích của script này là tạo một tệp .tar.gz bằng cách sao lưu một thư mục cụ thể. Script này sử dụng lệnh tar để tạo tệp lưu trữ và lệnh gzip để giảm kích thước tệp. Đây là một cách để lưu trữ các tệp, mã nguồn và dữ liệu trong một tệp duy nhất, làm cho việc sao lưu và phân phối dễ dàng hơn. 1. T","Một cách đơn giản để sao lưu một thư mục bằng cách tạo một tệp .tar.gz sử dụng bash là như sau:
+
+```bash
+# Sao lưu thư mục /path/to/directory thành tệp .tar.gz
+tar -czvf /path/to/backup.tar.gz /path/to/directory
+```
+
+Điều này tạo ra một tệp có tên .tar.gz và lưu trữ nội dung của thư mục vào đó. Điều"
+Lợi ích của việc sử dụng Vector Database trong ứng dụng RAG là gì?,Sử dụng Vector Database trong ứng dụng RAG (Question Answering with Generative Models) có thể mang lại nhiều lợi ích sau: 1. Tìm kiếm nhanh chóng và chính xác: Vector Database có thể cung cấp khả năng tìm kiếm nhanh chóng và chính xác cho câu hỏi của người dùng bằng cách lưu trữ và lưu trữ các dữ li,"Vector Database là một công cụ hữu ích để hỗ trợ việc phân tích và xử lý dữ liệu bằng cách tạo ra một biểu đồ hoặc hình ảnh đại diện cho từng phần của dữ liệu. Trong ứng dụng RAG (Retrieve, Augment, Generate), Vector Database có thể được sử dụng để tăng cường dữ liệu bằng cách trích xuất thông tin q"
+Giải thích sự khác biệt giữa overfitting và underfitting trong huấn luyện mô hình.,"Overfitting và underfitting là hai khái niệm khác nhau liên quan đến việc huấn luyện mô hình học máy. Overfitting là một tình huống trong đó mô hình học máy quá phức tạp, khiến nó phù hợp với các mẫu dữ liệu mà nó đã đào tạo nhưng không thể dự đoán chính xác cho các mẫu dữ liệu mới. Điều này xảy ra ",Overfitting và underfitting là hai khái niệm quan trọng trong việc huấn luyện mô hình học máy. Overfitting là tình trạng mô hình học máy có thể nhớ được dữ liệu nhưng không thể áp dụng chúng để dự đoán chính xác các trường hợp mới. Điều này xảy ra khi mô hình học máy đã học quá nhiều chi tiết trong 
